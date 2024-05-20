@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  #board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .square {
+    width: 90px;
+    height: 90px;
+    background-color: #f2f2f2;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .square.X {
+    color: #ff5e5e;
+  }
+  
+  .square.O {
+    color: #0077ff;
+  }
+
+  button{
+    margin-top: 20px;
+    height: 20px;
+  }
